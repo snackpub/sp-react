@@ -8,7 +8,7 @@ import {MyFunc2} from './components/func/func2';
 import {Clock, App as App3} from './components/class/Clock';
 
 import PostList from './components/class/PostList';
-
+import PostList2 from './components/class/PostList2';
 
 const user = {name: "qiuhaijun", avatarUrl: "avatarUrl"}
 
@@ -26,7 +26,8 @@ class App extends Component {
           {/*<MyFunc2/>*/}
           {/*<Clock />*/}
           {/*<App3 />*/}
-          <PostList />
+          <PostList2 />
+          {/*<PostList/>*/}
         </header>
       </div>
     )

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+
 class PostItem extends Component {
 
 
@@ -20,6 +21,7 @@ class PostItem extends Component {
 
   render() {
     const {title, author, date} = this.props;
+    // console.log(' this.props', this.props);
     return (
       <li>
         <div> {title} </div>
