@@ -4,6 +4,7 @@
 import React, {Component} from 'react';
 import PostItem from './PostItem2';
 
+import './css/PostList2.css';
 class PostList2 extends Component {
   constructor(props) {
     super(props);

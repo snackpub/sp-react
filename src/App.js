@@ -9,6 +9,7 @@ import {Clock, App as App3} from './components/class/Clock';
 
 import PostList from './components/class/PostList';
 import PostList2 from './components/class/PostList2';
+import Welcome from './components/func/func3';
 
 const user = {name: "qiuhaijun", avatarUrl: "avatarUrl"}
 
@@ -28,6 +29,8 @@ class App extends Component {
           {/*<App3 />*/}
           <PostList2 />
           {/*<PostList/>*/}
+          <Welcome name="qhj"/>
+
         </header>
       </div>
     )
